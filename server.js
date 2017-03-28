@@ -1,5 +1,5 @@
 var PORT = 33333;
-var HOST = 'radiant-brushlands-19474.herokuapp.com';
+var HOST = 'localhost';
 
 var dgram = require('dgram');
 var server = dgram.createSocket('udp4');
