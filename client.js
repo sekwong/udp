@@ -1,6 +1,5 @@
-var PORT = 8000;
-//var HOST = '127.0.0.1';
-var HOST = 'radiant-brushlands-19474.herokuapp.com';
+var PORT = 33333;
+var HOST = process.env.UDP_HOST;
 
 var dgram = require('dgram');
 var message = new Buffer('My KungFu is Good!');
