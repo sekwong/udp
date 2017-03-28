@@ -1,4 +1,4 @@
-var PORT = 33333;
+var PORT = 8000;
 var HOST = 'localhost';
 
 var dgram = require('dgram');

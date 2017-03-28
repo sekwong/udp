@@ -1,4 +1,4 @@
-var PORT = 33333;
+var PORT = 8000;
 //var HOST = '127.0.0.1';
 var HOST = 'radiant-brushlands-19474.herokuapp.com';
 
